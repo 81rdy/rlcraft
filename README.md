@@ -1,17 +1,17 @@
 # RLCraft
 
-I couldn't find an easy working deployment, so I made my own.
+Previous version is not working due to wrong java version, .yaml also got updated to work with newer version of RLCraft
 
-Currently RLCraft version 2.8.1
+Currently RLCraft version 2.8.2
 
-Uses https://github.com/itzg/docker-minecraft-server, with custom configuration to make Forge work.
+Based on https://github.com/itzg/docker-minecraft-server
 
 ## Usage
 
 Requires Docker and docker-compose.
 
 ```
-git clone git@github.com:BernardZhao/rlcraft.git
+git clone https://github.com/81rdy/rlcraft.git
 cd rlcraft
 docker-compose up -d
 ```
